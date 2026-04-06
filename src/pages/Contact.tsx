@@ -21,7 +21,7 @@ export const Contact = () => {
                 <Mail className="text-red-600" />
               </div>
               <h3 className="text-xl font-bold text-white mb-2">Email Us</h3>
-              <p className="text-gray-400">support@super11.com</p>
+              <p className="text-gray-400">support@scream11.com</p>
               <p className="text-gray-400 text-sm mt-2">Our team typically responds within 24 hours to all inquiries.</p>
             </div>
           </div>

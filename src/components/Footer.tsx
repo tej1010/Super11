@@ -12,7 +12,7 @@ export const Footer = () => {
             <img src={logo} alt="Super11" className="max-w-[150px] object-cover" />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Super 11 is the world's leading fantasy sports platform. Experience the thrill of the game like never before.
+              Scream 11 is the world's leading fantasy sports platform. Experience the thrill of the game like never before.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-red-600 transition-colors"><Facebook size={20} /></a>
@@ -47,7 +47,7 @@ export const Footer = () => {
             <ul className="space-y-4 text-sm text-gray-400">
               <li className="flex items-center space-x-3">
                 <Mail size={16} className="text-red-600" />
-                <span>support@super11.com</span>
+                <span>support@scream11.com</span>
               </li>
             </ul>
           </div>
@@ -55,7 +55,7 @@ export const Footer = () => {
 
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-500 text-xs">
-            © {new Date().getFullYear()} Super 11 Fantasy Sports. All rights reserved.
+            © {new Date().getFullYear()} Scream 11 Fantasy Sports. All rights reserved.
             <br />
             <span className="mt-2 block">Fantasy sports involves an element of financial risk and may be addictive. Please play responsibly.</span>
           </p>

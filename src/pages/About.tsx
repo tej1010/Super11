@@ -11,11 +11,11 @@ export const About = () => {
             animate={{ opacity: 1, x: 0 }}
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-white mb-8">
-              About <span className="text-red-600">Super 11</span>
+              About <span className="text-red-600">Scream 11</span>
             </h1>
             <div className="space-y-6 text-gray-400 text-lg leading-relaxed">
               <p>
-                Super 11 was founded with a single mission: to bring sports fans closer to the games they love. We believe that every fan is an expert in their own right, and our platform gives them the stage to prove it.
+                Scream 11 was founded with a single mission: to bring sports fans closer to the games they love. We believe that every fan is an expert in their own right, and our platform gives them the stage to prove it.
               </p>
               <p>
                 Since our inception in 2020, we have grown from a small startup to one of the most trusted names in fantasy sports. Our platform is built on the pillars of fairness, transparency, and technological innovation.

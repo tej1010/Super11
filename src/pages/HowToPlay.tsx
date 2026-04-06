@@ -33,7 +33,7 @@ export const HowToPlay = () => {
             How to <span className="text-red-600">Play & Win</span>
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Follow these simple steps to start your fantasy sports journey on Super 11.
+            Follow these simple steps to start your fantasy sports journey on Scream 11.
           </p>
         </div>
 

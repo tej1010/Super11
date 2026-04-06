@@ -44,7 +44,7 @@ export const Features = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl lg:text-6xl font-bold text-white mb-6"
           >
-            Why Choose <span className="text-red-600">Super 11?</span>
+            Why Choose <span className="text-red-600">Scream 11?</span>
           </motion.h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             We provide the most immersive and rewarding fantasy sports experience in the industry.

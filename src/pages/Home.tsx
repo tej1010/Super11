@@ -13,13 +13,13 @@ export const Home = () => {
   ];
 
   const testimonials = [
-    { name: "Rahul S.", city: "Mumbai", text: "Super 11 is the best fantasy app I've ever used. The interface is smooth and withdrawals are instant!", rating: 5 },
+    { name: "Rahul S.", city: "Mumbai", text: "Scream 11 is the best fantasy app I've ever used. The interface is smooth and withdrawals are instant!", rating: 5 },
     { name: "Priya K.", city: "Delhi", text: "I won my first mega contest here. The expert analysis really helped me pick the right captain.", rating: 5 },
     { name: "Amit V.", city: "Bangalore", text: "Fair play and transparency is what keeps me coming back. Highly recommended for cricket fans.", rating: 4 },
   ];
 
   const faqs = [
-    { q: "How do I start playing on Super 11?", a: "Simply download the APK, register with your mobile number, select a match, and create your team of 11 players." },
+    { q: "How do I start playing on Scream 11?", a: "Simply download the APK, register with your mobile number, select a match, and create your team of 11 players." },
     { q: "Is it safe to add money?", a: "Yes, we use bank-grade security and multiple payment gateways like UPI, Net Banking, and Cards for 100% safe transactions." },
     { q: "How can I withdraw my winnings?", a: "You can withdraw your winnings instantly to your verified bank account or UPI ID once your KYC is complete." },
   ];
@@ -40,7 +40,7 @@ export const Home = () => {
                 <span className="text-red-600">WIN BIGGER</span>
               </h1>
               <p className="text-xl text-gray-400 mb-10 max-w-lg">
-                Join millions of fans on Super 11. Create your dream team, compete in global leagues, and turn your sports knowledge into real rewards.
+                Join millions of fans on Scream 11. Create your dream team, compete in global leagues, and turn your sports knowledge into real rewards.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button className="flex items-center justify-center space-x-3 bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all transform hover:scale-105 shadow-lg shadow-red-600/20">
@@ -70,7 +70,7 @@ export const Home = () => {
               <div className="absolute -inset-4 bg-red-600/20 blur-3xl rounded-full" />
               <img
                 src={herosection}
-                alt="Super 11 Cricket Fantasy"
+                alt="Scream 11 Cricket Fantasy"
                 className="relative z-10 w-full max-w-md mx-auto rounded-[3rem] border-8 border-gray-900 shadow-2xl"
                 referrerPolicy="no-referrer"
               />
@@ -106,9 +106,6 @@ export const Home = () => {
                 <h3 className="text-2xl font-bold text-white mb-2">{t.name}</h3>
                 <p className="text-gray-500 mb-6">Mega Prize Pool</p>
                 <p className="text-3xl font-bold text-red-600 mb-6">{t.prize}</p>
-                <button className="w-full py-3 rounded-xl bg-white/5 text-white font-bold group-hover:bg-red-600 transition-colors">
-                  Join Now
-                </button>
               </motion.div>
             ))}
           </div>
