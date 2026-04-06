@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Trophy } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import logo from '../assets/images/scream11.svg';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -20,12 +21,7 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-red-600 p-2 rounded-lg">
-              <Trophy className="text-white w-6 h-6" />
-            </div>
-            <span className="text-2xl font-bold tracking-tighter text-white">
-              SUPER<span className="text-red-600">11</span>
-            </span>
+          <img src={logo} alt="Super11" className="max-w-[150px] object-cover" />
           </Link>
 
           {/* Desktop Links */}

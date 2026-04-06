@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Trophy, Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from 'lucide-react';
+import logo from '../assets/images/scream11.svg';
 
 export const Footer = () => {
   return (
@@ -8,12 +9,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-2">
-              <div className="bg-red-600 p-2 rounded-lg">
-                <Trophy className="text-white w-5 h-5" />
-              </div>
-              <span className="text-xl font-bold tracking-tighter text-white">
-                SUPER<span className="text-red-600">11</span>
-              </span>
+            <img src={logo} alt="Super11" className="max-w-[150px] object-cover" />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
               Super 11 is the world's leading fantasy sports platform. Experience the thrill of the game like never before.

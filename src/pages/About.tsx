@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import about from '../assets/images/aboutSection.png';
 
 export const About = () => {
   return (
@@ -42,9 +43,9 @@ export const About = () => {
           >
             <div className="absolute -inset-4 bg-red-600/10 blur-3xl rounded-full" />
             <img
-              src="https://picsum.photos/seed/cricket-stadium/1000/800"
+              src={about}
               alt="Cricket Stadium"
-              className="relative z-10 rounded-[2rem] shadow-2xl border border-red-900/30"
+              className="relative z-10 rounded-4xl shadow-2xl border border-red-900/30 max-w-[380px] mx-auto object-cover"
               referrerPolicy="no-referrer"
             />
           </motion.div>

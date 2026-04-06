@@ -1,14 +1,15 @@
 import { motion } from 'motion/react';
 import { Download, Trophy, Star, ShieldCheck, HelpCircle, ChevronDown } from 'lucide-react';
 import React from 'react';
+import herosection from '../assets/images/herosection.png';
 
 export const Home = () => {
   const [openFaq, setOpenFaq] = React.useState<number | null>(null);
 
   const tournaments = [
     { name: "IPL 2024", status: "Live Now", prize: "₹10 Cr" },
-    { name: "T20 World Cup", status: "Upcoming", prize: "₹25 Cr" },
-    { name: "Asia Cup", status: "Upcoming", prize: "₹5 Cr" },
+    { name: "T20 World Cup", status: "Past", prize: "₹25 Cr" },
+    { name: "Asia Cup", status: "Past", prize: "₹5 Cr" },
   ];
 
   const testimonials = [
@@ -68,7 +69,7 @@ export const Home = () => {
             >
               <div className="absolute -inset-4 bg-red-600/20 blur-3xl rounded-full" />
               <img
-                src="https://picsum.photos/seed/cricket-match/800/1000"
+                src={herosection}
                 alt="Super 11 Cricket Fantasy"
                 className="relative z-10 w-full max-w-md mx-auto rounded-[3rem] border-8 border-gray-900 shadow-2xl"
                 referrerPolicy="no-referrer"
